@@ -25,7 +25,7 @@ public class CLI {
    * @param stdout Usually System.out
    * @param stdin Usually System.in
    * @param prompt question to ask, e.g. "Enter Command: "
-   * @return the string typed by the user
+   * @return the string typed by the user, or null if they've quit.
    */
   @Nullable
   static String readString(PrintStream stdout, InputStream stdin, String prompt) {

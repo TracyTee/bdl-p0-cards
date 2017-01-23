@@ -6,5 +6,15 @@ public class Main {
     System.out.println("CS341 - Building a Digital Library");
     // TODO adjust your author name.
     System.out.println("Author: John Foley");
+
+    while(true) {
+      String input = CLI.readString("Input> ");
+      if(input == null || input.length() == 0) {
+        break;
+      }
+      System.out.println("You have entered: ");
+      System.out.println("\t"+input);
+      System.out.println();
+    }
   }
 }
