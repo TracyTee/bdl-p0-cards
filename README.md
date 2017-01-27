@@ -28,9 +28,10 @@ We will abbreviate the cards by their first letter or their full number:
 Each of the cards is considered to have a numeric cost: numeric cards use their face value, and the rest are assigned somewhat in order: J=11, Q=12, K=13, A=15. The ace “A” is worth more because of its use in runs, it motivates players to “get rid of them” first.
 
 ## Runs or Melds:
-If a player has 3 or more cards of the same suit in order, this is considered to be a “run”.
+If a player has 3 or more *consecutive, numbered* cards of the same suit in order, this is considered to be a “run”.
 
 - A valid run of four cards: “2H 3H 4H 5H”
+- An invalid run of three cards: “2H 4H 5H” - they must be consecutive.
 - An invalid run of three cards: “6H 7D 8H” - they must be the same suit.
 - A valid run of three cards: “QH KH AH” - Aces are allowed in runs above a King.
 - A valid run of three cards: “AH 2H 3H” - Aces are also allowed in runs below a 2.
